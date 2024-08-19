@@ -189,7 +189,7 @@ namespace libil2cpp_Patcher
             this.cbHelper.Items.AddRange(new object[] {
             "return true",
             "return false",
-            "return 0"});
+            "return"});
             this.cbHelper.Location = new System.Drawing.Point(381, 52);
             this.cbHelper.Name = "cbHelper";
             this.cbHelper.Size = new System.Drawing.Size(112, 23);
@@ -251,7 +251,7 @@ namespace libil2cpp_Patcher
             this.Name = "FrmMain";
             this.Padding = new System.Windows.Forms.Padding(5);
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Lib IL2CPP Patcher";
+            this.Text = "Lib IL2CPP Patcher x64";
             this.DragDrop += new System.Windows.Forms.DragEventHandler(this.FrmMain_DragDrop);
             this.DragEnter += new System.Windows.Forms.DragEventHandler(this.FrmMain_DragEnter);
             this.DragOver += new System.Windows.Forms.DragEventHandler(this.FrmMain_DragOver);

@@ -107,12 +107,15 @@ namespace libil2cpp_Patcher
             switch (cbHelper.SelectedIndex)
             {
                 case 0:
-                    BeginInvoke(new Action(() => cbHelper.Text = @"01 00 A0 E3 1E FF 2F E1"));
+                    BeginInvoke(new Action(() => cbHelper.Text = @"20 00 80 D2 C0 03 5F D6"));
                     break;
 
                 case 1:
+                    BeginInvoke(new Action(() => cbHelper.Text = @"00 00 80 D2 C0 03 5F D6"));
+                    break;
+
                 case 2:
-                    BeginInvoke(new Action(() => cbHelper.Text = @"00 00 A0 E3 1E FF 2F E1"));
+                    BeginInvoke(new Action(() => cbHelper.Text = @"C0 03 5F D6"));
                     break;
             }
         }
